@@ -1,0 +1,113 @@
+/* index.css */
+
+/* Global Styles */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #a0f7ff;
+}
+/**include padding top so that all elts vible below the sticky navbar*/
+.below-nav{
+  padding-top: 20px;
+}
+/* Navbar Styles */
+.navbar {
+  padding: 0.8rem 1rem;
+}
+
+.nav-link {
+  font-weight: 500;
+  color: #fff !important;
+}
+
+.nav-link:hover {
+  color: #f5ca3e !important;
+}
+
+/* Event Card Styles */
+.event-img {
+  height: 250px;
+  object-fit:fill;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  transition: all 0.1s ease-in-out;
+}
+
+.card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.card-text {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+/* Movie List Table */
+.table th,
+.table td {
+  vertical-align: middle;
+  text-align: center;
+}
+
+/* Button Styles */
+.btn-primary {
+  background-color: #ff3f6c;
+  border-color: #ff3f6c;
+}
+
+.btn-primary:hover {
+  background-color: #e63950;
+  border-color: #e63950;
+}
+
+/* Dark Mode */
+body.dark-mode {
+  background-color: #121212;
+  color: #fff;
+}
+
+.card.dark-mode {
+  background-color: #1e1e1e;
+  color: #fff;
+}
+
+/* Theme Toggle Button */
+.theme-btn {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  z-index: 999;
+  width: 100px;
+  height: 40px;
+  font: size 5px;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+/* Carousel Styles */
+.carousel-item img {
+  width:100%;
+  height: 500px;
+  object-fit: contain;
+  background-image: #000;
+}
+
+.carousel-caption {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/* Responsive Carousel */
+@media (max-width: 768px) {
+  .carousel-img {
+    height: 300px;
+  }
+  .event-img {
+    height: 200px;
+  }
+}
