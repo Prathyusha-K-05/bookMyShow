@@ -16,8 +16,8 @@ const CustomNavbar = () => {
             <Nav.Link as={Link} to="/sports">Sports</Nav.Link>
             <Nav.Link as={Link} to="/offers">Offers</Nav.Link>
           </Nav>
-          <Form className="d-flex mx-auto">
-            <FormControl type="search" placeholder="Search for Movies/Events" className="me-2" />
+          <Form className="d-flex mx-auto"  style={{ width: "40%" }}>
+            <FormControl type="search" placeholder="Search for Movies/Events" className="me-2"  style={{ flexGrow: 1 }} />
             <Button variant="outline-success">Search</Button>
           </Form>
           <Nav>

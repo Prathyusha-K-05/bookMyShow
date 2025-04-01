@@ -17,7 +17,7 @@ function Signin() {
                         <input type="password" className="form-control" placeholder="Enter your password" />
                     </div>
                     <div className="d-grid mb-3">
-                        <Link to="/Home" className="btn btn-primary">Login</Link>
+                        <Link to="/" className="btn btn-primary">Login</Link>
                     </div>
                 </form>
                 <div className="text-center">

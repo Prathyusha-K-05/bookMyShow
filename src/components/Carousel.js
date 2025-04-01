@@ -1,6 +1,7 @@
 // components/Carousel.js
 import React from 'react';
 import { Carousel } from 'react-bootstrap';
+import '../styles/index.css';
 
 const MovieCarousel = () => {
   const movies = [

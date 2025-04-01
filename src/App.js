@@ -5,6 +5,7 @@ import CustomNavbar from './components/Navbar';
 import HomePage from './pages/Home';
 import Movies from './pages/Movies';
 import Events from './pages/Events';
+import Sports from './pages/Sports';
 import ThemeToggle from './components/ThemeToggle';
 import SignUp from './components/SignUp';
 import Signin from './components/Signin';
@@ -20,6 +21,7 @@ const App = () => {
         <Route path="/signup" element={<SignUp />} />
         <Route path="/movies" element={<Movies />} />
         <Route path="/events" element={<Events />} />
+        <Route path="/sports" element={<Sports/>}/>
       </Routes>
       </div>
       <ThemeToggle/>

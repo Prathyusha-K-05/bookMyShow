@@ -111,3 +111,16 @@ body.dark-mode {
     height: 200px;
   }
 }
+
+/* Ensure arrows are always visible */
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  background-color: rgba(0, 4, 255, 0.786); /* Light background for arrows */
+  border-radius: 50%; /* Makes them circular */
+  padding: 15px;
+}
+
+/* Ensure the arrows stand out */
+.carousel-control-prev, .carousel-control-next {
+  width: 10%; /* Adjust arrow visibility */
+}
+
